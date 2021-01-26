@@ -1,0 +1,21 @@
+{
+    "name": "ilya/homework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ilya Pavlovskyi",
+            "email": "i.v.pavlovskyi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpdocumentor/phpdocumentor": "2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "homework\\core\\query\\": "core/query",
+            "homework\\core\\db\\": "core/db"
+        }
+    }
+}
